@@ -3,9 +3,11 @@ body {
 }
 
 canvas {
-  background-color: lightgray;
+  background-color: rgb(71, 66, 66);
 }
 
 img {
   display: none;
+ 
 }
+createPlateform(500, 300, 200, 20); 

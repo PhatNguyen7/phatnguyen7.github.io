@@ -82,16 +82,6 @@ This Function call will create a platform with an (x,y) location of `(400, 200)`
 - Keep your code in between the areas **ONLY CHANGE BELOW THIS POINT** and **ONLY CHANGE ABOVE THIS POINT**. This will help you make less errors. The comments you see will look something like this:
 
 ```javascript
-/////////////////////////////////////////////////
-//////////ONLY CHANGE BELOW THIS POINT///////////
-/////////////////////////////////////////////////
-
-createCollectable("steve", 200, 170, 6, 0.7); //your example function call
-
-/////////////////////////////////////////////////
-//////////ONLY CHANGE ABOVE THIS POINT///////////
-/////////////////////////////////////////////////
-```
 
 **TO PREVIEW YOUR WORK:**
 
