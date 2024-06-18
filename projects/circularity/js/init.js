@@ -24,7 +24,14 @@ var circle;
 var circles = {}
 
         // TODO 2 : Create a function that draws a circle 
-        function drawCircle()
+        function drawCircle(parameter) {
+
+        }
+        circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
+physikz.addRandomVelocity(circle, canvas, 2.5, 2.5);
+view.addChild(circle);
+circles.push(circle);
+draw.randomCircleInArea
 
         // TODO 3 / 7 : Call the drawCircle() function 
        drawCircle()
@@ -32,7 +39,6 @@ var circles = {}
        drawCircle()
        drawCircle()
        drawCircle()
-
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
@@ -44,10 +50,27 @@ var circles = {}
         */
         function update() {
             // TODO 4 : Update the circle's position //
+            physikz.updatePosition(circle);
+            physikz.updatePosition(circle);
+            physikz.updatePosition(circle);
+            physikz.updatePosition(circle);
+            physikz.updatePosition(circle);
+            myArray[0, 1, 2, 3, 4 ];
+           myArray[0]
 
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           
+            game.checkCirclePosition()
+            game.checkCirclePosition(6)
+            game.checkCirclePosition(8)
+            game.checkCirclePosition()
+            game.checkCirclePosition()
+            game.checkCirclePosition =
+            function (ciricle) {
+                if (circle.x > canvas.width)
+                    {circle.x = 0;
+                    }
+            }
 
             // TODO 9 : Iterate over the array
            
@@ -60,6 +83,9 @@ var circles = {}
         it to the opposite side of the screen.
         */
         game.checkCirclePosition = function(circle) {
+            if (circle.x > canvas.width) {
+                circle.x = 0;
+            }
 
             // if the circle has gone past the RIGHT side of the screen then place it on the LEFT
             if ( circle.x > canvas.width ) {
